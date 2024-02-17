@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:21
 WORKDIR /app/
 ADD . /app/
 ARG MAXMEMORY=5
