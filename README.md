@@ -9,4 +9,4 @@ Remaining commands, after cloning repository:
 2 - sudo docker volume create minecraftvol
 
 
-3 - sudo docker run -d -p YOUR_PORT:YOUR_PORT --restart unless-stopped --mount source=mincraftvol,target=/app minecraft
+3 - sudo docker run -d -p YOUR_PORT:YOUR_PORT --restart unless-stopped --mount source=minecraftvol,target=/app minecraft
