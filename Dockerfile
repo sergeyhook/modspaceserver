@@ -1,4 +1,4 @@
-FROM java:21
+FROM openjdk:21
 WORKDIR /app/
 ADD . /app/
 ARG MAXMEMORY=5
